@@ -22,15 +22,16 @@
 ## Commands
 ### qitem
 - Default / base question item
-- Leaves most vertical space for answer sentence
-- `\qitem{Question Text}`
+- Leaves most vertical space for answer sentence (default 1.1cm)
+- `\qitem[8mm]{Question Text}`
 ### qmitem
 - Takes a list of answers to be provided
 - made for music / listening questions
+- horizontal space for answer instead of vertical
 - `\qmitem{Title: \\ Artist: \\ Cover Artist:}`
 ### qeitem
 - Prepends question with a note that the value is to be guessed
-- Less space than qitem
+- Less space than qitem (default 0.8cm)
 - `\qeitem{Question Text}`
 ### qlitem
 - Enumerates items
