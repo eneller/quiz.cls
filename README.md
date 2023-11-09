@@ -28,7 +28,7 @@
 - Takes a list of answers to be provided
 - made for music / listening questions
 - horizontal space for answer instead of vertical
-- `\qmitem{Title: \\ Artist: \\ Cover Artist:}`
+- Defaults to: `\qmitem{Titel: \\ Interpret: \\ Original-Interpret}`
 ### qeitem
 - Prepends question with a note that the value is to be guessed
 - Less space than qitem (default 0.8cm)
